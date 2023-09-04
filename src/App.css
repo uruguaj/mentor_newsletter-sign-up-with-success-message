@@ -1,114 +1,113 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
-*{
-    margin: 0;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo&display=swap");
+* {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
-.list{
-
+.list {
 }
-p{
-    font-family: 'Heebo', sans-serif;
-    color: hsl(235, 18%, 26%);
+p {
+  font-family: "Heebo", sans-serif;
+  color: hsl(235, 18%, 26%);
 }
 
 div {
-    overflow-x: hidden;
-    font-size: 16px;
+  overflow-x: hidden;
+  font-size: 16px;
 }
 
-.main-img{
-    min-width: 100vw;
+.main-img {
+  min-width: 100vw;
 }
-img{
-    max-width: 100vw;
+img {
+  max-width: 100vw;
 }
-ul{
-    color: hsl(234, 29%, 20%);
-    list-style: none;
+ul {
+  color: hsl(234, 29%, 20%);
+  list-style: none;
 }
-.first{
-    margin-top: 1.5rem;
+.first {
+  margin-top: 1.5rem;
 }
-li{
-    margin-bottom: 1.5rem;
-    margin-left: -1rem;
+li {
+  margin-bottom: 1.5rem;
+  margin-left: -1rem;
 }
 .list ul > li:before {
-    content: "";
-    height: 1rem;
-    width: 1rem;
-    display: block;
-    margin-right: .75rem;
-    float: left;
-    margin-left: -1.5rem;
+  content: "";
+  height: 1rem;
+  width: 1rem;
+  display: block;
+  margin-right: 0.75rem;
+  float: left;
+  margin-left: -1.5rem;
 }
 
 .list ul > li:before {
-    background: url("icon-list.svg");
-    padding: .15rem;
+  background: url("icon-list.svg");
+  padding: 0.15rem;
 }
-.main{
-    padding: 1.25rem;
-}
-
-.title{
-    font-family: 'Roboto', sans-serif;
-    margin-bottom: 1rem;
-    margin-top: .5rem;
-    color: hsl(234, 29%, 20%);
+.main {
+  padding: 1.25rem;
 }
 
-.second{
-    margin-top: 1.75rem;
-}
-.form{
-    display: grid;
-}
-span{
-    font-family: 'Roboto', sans-serif;
-    font-size: .75rem;
-    margin-bottom: .75rem;
-}
-input , .submit{
-    width: 100%;
-    font-size: .9rem;
-    padding: 1rem;
-    border-radius: .35rem;
-    color: #1a1a1a;
-    border: 0.5px solid hsl(231, 7%, 60%);
-}
-.dismiss{
-    width: 100%;
-    font-size: .9rem;
-    margin-top: 30vh !important;
-    padding: 1rem;
-    border-radius: .35rem;
+.title {
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+  color: hsl(234, 29%, 20%);
 }
 
-.submit , .dismiss{
-    font-family: 'Roboto', sans-serif;
-    color: white;
-    background-color: hsl(234, 29%, 20%);
-    margin-top: 1.25rem;
-    margin-bottom: .25rem;
+.second {
+  margin-top: 1.75rem;
 }
-.submitted{
-    padding: 1rem;
-    margin-top: 20vh;
+.form {
+  display: grid;
 }
-.mt2{
-    margin-top: 2rem;
+span {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.75rem;
+  margin-bottom: 0.75rem;
 }
-.mb2{
-    margin-bottom: 2rem;
+input,
+.submit {
+  width: 100%;
+  font-size: 0.9rem;
+  padding: 1rem;
+  border-radius: 0.35rem;
+  color: #1a1a1a;
+  border: 0.5px solid hsl(231, 7%, 60%);
 }
-.email-submitted{
-    font-size: 1rem;
+.dismiss {
+  width: 100%;
+  font-size: 0.9rem;
+  margin-top: 30vh !important;
+  padding: 1rem;
+  border-radius: 0.35rem;
 }
-@media screen and (min-width: 375px){
 
-
+.submit,
+.dismiss {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  background-color: hsl(234, 29%, 20%);
+  margin-top: 1.25rem;
+  margin-bottom: 0.25rem;
+}
+.submitted {
+  padding: 1rem;
+  margin-top: 20vh;
+}
+.mt2 {
+  margin-top: 2rem;
+}
+.mb2 {
+  margin-bottom: 2rem;
+}
+.email-submitted {
+  font-size: 1rem;
+}
+@media screen and (min-width: 375px) {
 }
