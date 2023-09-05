@@ -23,11 +23,19 @@ function App() {
     <>
       {!submitted() && (
         <div className="not-submitted">
+          <div className='content'>
           <img
-            className="main-img"
+            className="mobile-img"
             src="illustration-sign-up-mobile.svg"
             alt="illustration"
           />
+            <div className='desktop'>
+          <img
+              className="desktop-img"
+              src="illustration-sign-up-desktop.svg"
+              alt="illustration"
+          />
+            </div>
           <div className="main">
             <h1 className="title">Stay updated!</h1>
 
@@ -64,6 +72,7 @@ function App() {
               </form>
             </div>
           </div>
+        </div>
         </div>
       )}
       {submitted() === true && (
